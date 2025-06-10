@@ -7,7 +7,13 @@ export default function Home() {
   // Add podcast data
   const podcasts = [
     {
-      title: "How to build your product team from scratch",
+      title: "Product, Platforms, and the Path to Venture",
+      host: "The Council First Builders",
+      url: "https://podcasts.apple.com/us/podcast/the-first-builder-archetype-rohini-pandhi-on-product/id1818466924?i=1000711092579",
+      date: "Jun 2025",
+    },
+      {
+      title: "How to Build your Product Team from Scratch",
       host: "Lenny's Podcast",
       url: "https://www.lennysnewsletter.com/p/how-to-build-your-product-team-from-scratch-rohini-pandhi",
       date: "Jan 2025",
@@ -163,13 +169,21 @@ export default function Home() {
                 >
                   <div className="flex items-start gap-4">
                     <div className="mt-1 rounded-lg overflow-hidden flex-shrink-0">
-                      {podcast.host === "Lenny's Podcast" ? (
+                      {podcast.host === "The Council First Builders" ? (
                         <Image
-                          src="https://substackcdn.com/image/fetch/w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
-                          alt="Lenny's Podcast"
+                          src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/da/87/07/da8707a5-3b5f-c84b-ce9f-3b978580738c/mza_10839815661738730026.jpg/600x600bb.webp"
+                          alt="The Council First Builders"
                           width={40}
                           height={40}
                           className="rounded-lg"
+                        />
+                      ) : podcast.host === "Lenny's Podcast" ? (
+                        <Image
+                            src="https://substackcdn.com/image/fetch/w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+                            alt="Lenny's Podcast"
+                            width={40}
+                            height={40}
+                            className="rounded-lg"
                         />
                       ) : podcast.host === "Product Love" ? (
                         <Image
