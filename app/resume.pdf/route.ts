@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server"
 
 export function GET(request: NextRequest) {
   return NextResponse.redirect(
-    "https://jufluwufipzvoxfa.public.blob.vercel-storage.com/resume-P3dOpftI7tMhBEtHkxpdoKWVEjBtJK.pdf",
+    "https://jufluwufipzvoxfa.public.blob.vercel-storage.com/resume-0RdbYR1sx2bC5EDvoazrzF8wmza7RG",
     { status: 302 },
   )
 }
