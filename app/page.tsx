@@ -56,6 +56,10 @@ export default function Home() {
                 </div>
                 <p className="text-slate-700 max-w-[600px]">
                   Building products at{" "}
+                  <Link href="https://www.novo.co/" className="text-teal-600 hover:text-teal-700">
+                    Novo
+                  </Link>
+                  , ex-
                   <Link href="https://mercury.com/" className="text-teal-600 hover:text-teal-700">
                     Mercury
                   </Link>
@@ -138,8 +142,9 @@ export default function Home() {
             </div>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-slate-700 mb-6">
-                I'm a product leader with over a decade of experience building and scaling products that users love.
-                Currently, I lead product expansion at Mercury, where we're building banking for startups.
+                I'm a product leader with over a decade of experience building and scaling fintech products that users
+                love. Currently, I am the Chief Product Officer at Novo, where we're building banking for small
+                businesses.
               </p>
               <p className="text-lg text-slate-700 mb-6">
                 As a partner at Transparent Collective, I'm passionate about supporting underrepresented founders and
