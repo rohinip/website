@@ -55,15 +55,11 @@ export default function Home() {
                   </p>
                 </div>
                 <p className="text-slate-700 max-w-[600px]">
-                  Building products at{" "}
-                  <Link href="https://www.novo.co/" className="text-teal-600 hover:text-teal-700">
-                    Novo
-                  </Link>
-                  , ex-
+                  Building products for fintechs and beyond. Formerly at{" "}
                   <Link href="https://mercury.com/" className="text-teal-600 hover:text-teal-700">
                     Mercury
-                  </Link>
-                  , ex-
+                  </Link>{" "}
+                  and{" "}
                   <Link href="https://block.xyz/" className="text-teal-600 hover:text-teal-700">
                     Block
                   </Link>
@@ -142,19 +138,18 @@ export default function Home() {
             </div>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-slate-700 mb-6">
-                I'm a product leader with over a decade of experience building and scaling fintech products that users
-                love. Currently, I am the Chief Product Officer at Novo, where we're building banking for small
-                businesses.
+                I'm a product leader with over a decade of experience building and scaling fintech products. My focus
+                has always been on creating solutions that genuinely improve how people manage their financial lives.
               </p>
               <p className="text-lg text-slate-700 mb-6">
-                As a partner at Transparent Collective, I'm passionate about supporting underrepresented founders and
-                helping them build successful companies. I also serve as an advisor to early-stage startups, providing
-                guidance on product strategy, go-to-market, and fundraising.
+                As a partner at Transparent Collective, I work with underrepresented founders to build sustainable,
+                high-growth companies. I also advise early-stage startups on product strategy, go-to-market execution,
+                and fundraising, partnering with founders through the critical early stages of company building.
               </p>
               <p className="text-lg text-slate-700">
-                When I'm not working with startups, you can find me exploring new technologies and trends, especially in
-                the fintech space. I'm always open to connecting with fellow product enthusiasts, founders, and
-                investors.
+                I have an active interest in emerging technologies and industry trends, and regularly share insights
+                through various podcast appearances featured below. I welcome opportunities to connect with other
+                product leaders, founders, and investors. Please feel free to reach out!
               </p>
             </div>
           </div>
