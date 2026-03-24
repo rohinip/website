@@ -183,7 +183,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Lenny's Podcast" ? (
                         <Image
-                          src="https://substackcdn.com/image/fetch/w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png"
+                          src="/lennys-podcast.jpg"
                           alt="Lenny's Podcast"
                           width={40}
                           height={40}
@@ -191,15 +191,15 @@ export default function Home() {
                         />
                       ) : podcast.host === "Product Love" ? (
                         <Image
-                          src="https://www.pendo.io/wp-content/uploads/2022/12/favicon.png"
+                          src="/product-love.jpg"
                           alt="Product Love Podcast"
                           width={40}
                           height={40}
-                          className="rounded-lg p-1"
+                          className="rounded-lg"
                         />
                       ) : podcast.host === "Inside Intercom" ? (
                         <Image
-                          src="https://blog.intercomassets.com/blog/wp-content/uploads/2018/10/cropped-cropped-site-icon-2-192x192.png"
+                          src="/inside-intercom.jpg"
                           alt="Inside Intercom Podcast"
                           width={40}
                           height={40}
@@ -207,7 +207,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Operator's Blog" ? (
                         <Image
-                          src="https://i0.wp.com/operatorsstudio.com/wp-content/uploads/2023/04/cropped-thumbnail-2.jpeg?fit=192%2C192&ssl=1"
+                          src="/operators-blog.jpg"
                           alt="Operator's Blog"
                           width={40}
                           height={40}
