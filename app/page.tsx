@@ -207,7 +207,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Operator's Blog" ? (
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/operators-studio-2DkZToNvflFlnEfy23oBeaRTHy11Qz.jpg"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/operators-studio-BUBxkaRNlsqUukhWN1egzs2DBORz1p.jpg"
                           alt="Operator's Blog"
                           width={40}
                           height={40}
