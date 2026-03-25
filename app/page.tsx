@@ -191,11 +191,11 @@ export default function Home() {
                         />
                       ) : podcast.host === "Product Love" ? (
                         <Image
-                          src="https://www.pendo.io/wp-content/uploads/2022/12/favicon.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/product-love-LSfm5a9kWo3b6yLqHPqj1xbF58PUJd.jpg"
                           alt="Product Love Podcast"
                           width={40}
                           height={40}
-                          className="rounded-lg p-1"
+                          className="rounded-lg"
                         />
                       ) : podcast.host === "Inside Intercom" ? (
                         <Image
