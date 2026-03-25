@@ -207,7 +207,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Operator's Blog" ? (
                         <Image
-                          src="https://i0.wp.com/operatorsstudio.com/wp-content/uploads/2023/04/cropped-thumbnail-2.jpeg?fit=192%2C192&ssl=1"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/operators-studio-2DkZToNvflFlnEfy23oBeaRTHy11Qz.jpg"
                           alt="Operator's Blog"
                           width={40}
                           height={40}
