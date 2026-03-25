@@ -191,11 +191,11 @@ export default function Home() {
                         />
                       ) : podcast.host === "Product Love" ? (
                         <Image
-                          src="https://www.pendo.io/wp-content/uploads/2022/12/favicon.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/product-love-LSfm5a9kWo3b6yLqHPqj1xbF58PUJd.jpg"
                           alt="Product Love Podcast"
                           width={40}
                           height={40}
-                          className="rounded-lg p-1"
+                          className="rounded-lg"
                         />
                       ) : podcast.host === "Inside Intercom" ? (
                         <Image
@@ -207,7 +207,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Operator's Blog" ? (
                         <Image
-                          src="https://i0.wp.com/operatorsstudio.com/wp-content/uploads/2023/04/cropped-thumbnail-2.jpeg?fit=192%2C192&ssl=1"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/operators-studio-BUBxkaRNlsqUukhWN1egzs2DBORz1p.jpg"
                           alt="Operator's Blog"
                           width={40}
                           height={40}
