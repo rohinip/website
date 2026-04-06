@@ -115,7 +115,7 @@ export default function Home() {
               <div className="relative flex justify-center">
                 <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden border-4 border-white shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF109827-Edit-Cropped.jpg-YWdneUdOBSQH9Im1Mhf5Nk54iMy2yn.jpeg"
+                    src="/profile.jpg"
                     alt="Rohini Pandhi"
                     fill
                     className="object-cover"
@@ -191,7 +191,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Product Love" ? (
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/product-love-LSfm5a9kWo3b6yLqHPqj1xbF58PUJd.jpg"
+                          src="/podcast-product-love.jpg"
                           alt="Product Love Podcast"
                           width={40}
                           height={40}
@@ -207,7 +207,7 @@ export default function Home() {
                         />
                       ) : podcast.host === "Operator's Blog" ? (
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/operators-studio-BUBxkaRNlsqUukhWN1egzs2DBORz1p.jpg"
+                          src="/podcast-operators-studio.jpg"
                           alt="Operator's Blog"
                           width={40}
                           height={40}
