@@ -4,7 +4,6 @@ import { Linkedin, Twitter, Newspaper, Mic2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
-  // Add podcast data
   const podcasts = [
     {
       title: "Product, Platforms, and the Path to Venture",
@@ -13,7 +12,7 @@ export default function Home() {
       date: "Jun 2025",
     },
     {
-      title: "How to build your product team from scratch",
+      title: "How to build your product team from scratch, go multi-product, and more",
       host: "Lenny's Podcast",
       url: "https://www.lennysnewsletter.com/p/how-to-build-your-product-team-from-scratch-rohini-pandhi",
       date: "Jan 2025",
@@ -51,27 +50,27 @@ export default function Home() {
                     <span className="text-slate-800">Rohini</span> <span className="text-teal-600">Pandhi</span>
                   </h1>
                   <p className="mt-4 text-lg text-slate-600 max-w-[600px]">
-                    Product Leader • Startup Advisor • Investor
+                    Product Leader • Startup Advisor • Angel Investor
                   </p>
                 </div>
                 <p className="text-slate-700 max-w-[600px]">
-                  Building products for fintechs and beyond. Formerly at{" "}
+                  Exploring AI-native products at South Park Commons. Previously CPO at{" "}
+                  <Link href="https://www.novo.co/" className="text-teal-600 hover:text-teal-700">
+                    Novo
+                  </Link>
+                  , Head of Expansion at{" "}
                   <Link href="https://mercury.com/" className="text-teal-600 hover:text-teal-700">
                     Mercury
-                  </Link>{" "}
-                  and{" "}
+                  </Link>
+                  , and Product Lead at{" "}
                   <Link href="https://block.xyz/" className="text-teal-600 hover:text-teal-700">
                     Block
                   </Link>
-                  . Supporting founders through{" "}
+                  . Co-founder of{" "}
                   <Link href="https://www.transparentcollective.com/#/" className="text-teal-600 hover:text-teal-700">
                     Transparent Collective
                   </Link>
-                  .{" "}
-                  <Link href="https://angel.co/p/rohinip" className="text-teal-600 hover:text-teal-700">
-                    Investing
-                  </Link>{" "}
-                  in the next generation of startups.
+                  .
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link href="mailto:rohinipandhi@gmail.com">
@@ -138,24 +137,28 @@ export default function Home() {
             </div>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-slate-700 mb-6">
-                I'm a product leader with over a decade of experience building and scaling fintech products. My focus
-                has always been on creating solutions that genuinely improve how people manage their financial lives.
+                I'm a product leader with 15+ years building and scaling products across fintech, developer platforms,
+                and consumer. I've led product at Block (Square Payments, Bitcoin Wallet), Mercury, and Novo, and I'm
+                currently at South Park Commons.
               </p>
               <p className="text-lg text-slate-700 mb-6">
-                As a partner at Transparent Collective, I work with underrepresented founders to build sustainable,
-                high-growth companies. I also advise early-stage startups on product strategy, go-to-market execution,
-                and fundraising, partnering with founders through the critical early stages of company building.
+                As a co-founder at Transparent Collective, I work with underrepresented founders to build high-growth
+                companies. I also angel invest and advise early-stage startups on product strategy and go-to-market.
+              </p>
+              <p className="text-lg text-slate-700 mb-6">
+                Right now I'm most energized by questions around how AI reshapes the relationship between users and
+                software, where agents can genuinely act on someone's behalf versus where human intent still needs to
+                be in the loop.
               </p>
               <p className="text-lg text-slate-700">
-                I have an active interest in emerging technologies and industry trends, and regularly share insights
-                through various podcast appearances featured below. I welcome opportunities to connect with other
-                product leaders, founders, and investors. Please feel free to reach out!
+                Outside of product, I spend time mentoring early-stage founders, angel investing, and occasionally
+                writing. I'm always happy to connect with other product leaders, founders, and builders.
               </p>
             </div>
           </div>
         </section>
 
-        {/* New Podcasts Section */}
+        {/* Podcasts Section */}
         <section id="podcasts" className="py-16 md:py-24 bg-slate-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center text-center mb-12">
@@ -195,7 +198,7 @@ export default function Home() {
                           alt="Product Love Podcast"
                           width={40}
                           height={40}
-                          className="rounded-lg"
+                          className="rounded-lg p-1"
                         />
                       ) : podcast.host === "Inside Intercom" ? (
                         <Image
@@ -244,7 +247,7 @@ export default function Home() {
                 <span className="text-teal-600">Pandhi</span>
               </span>
             </Link>
-            <p className="text-sm text-slate-500">Product Leader • Startup Advisor • Investor</p>
+            <p className="text-sm text-slate-500">Product Leader • Startup Advisor • Angel Investor</p>
           </div>
           <div className="flex gap-4">
             <Link
